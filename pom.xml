@@ -189,11 +189,11 @@
 	  </reporting>
 	
 <distributionManagement>
-    <snapshotRepository>
-        <id>snapshots</id>
-        <name>devops-snapshots</name>
-        <url>http://localhost:8081/artifactory/libs-snapshot-local</url>
-    </snapshotRepository>
+    <repository>
+        <id>central</id>
+        <name>devops-releases</name>
+        <url>http://localhost:8081/artifactory/libs-release</url>
+    </repository>
 </distributionManagement>
 	
 </project>
