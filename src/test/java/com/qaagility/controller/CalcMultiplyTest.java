@@ -3,6 +3,7 @@ package com.qaagility.controller;
 import org.junit.Test;
 import org.junit.Before;
 import org.junit.After;
+import org.junit.BeforeClass;
 import static org.junit.Assert.assertEquals;
 import com.qaagility.controller.*;
 
@@ -17,6 +18,7 @@ public class CalcMultiplyTest
     {
         System.out.println("Slow");
     }
+    @BeforeClass
     public void testFast()
     {
         System.out.println("Fast");
