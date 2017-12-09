@@ -27,5 +27,9 @@ public class CalcMultiplyTest
         {
             assertEquals ("Result", 9,9);
         }
+        public void testFailCalc()
+        {
+            assertEquals ("Result", 9,10);
+        }
 
 }
