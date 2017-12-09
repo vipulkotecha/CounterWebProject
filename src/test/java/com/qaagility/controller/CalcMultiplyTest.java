@@ -18,7 +18,7 @@ public class CalcMultiplyTest
     {
         System.out.println("Slow");
     }
-    @BeforeClass
+
     public void testFast()
     {
         System.out.println("Fast");
@@ -42,6 +42,7 @@ public class CalcMultiplyTest
     @Test
         public void testCalcAdd()
         {
-            assertEquals ("Result", 9, objCalc.add());
+            assertEquals ("Result", 9, objCalc.add());            
+            assertEquals ("Result", 12, objCalc.add());
         }
 }
