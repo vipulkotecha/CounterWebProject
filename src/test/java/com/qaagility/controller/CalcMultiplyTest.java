@@ -34,11 +34,11 @@ public class CalcMultiplyTest
     @Test
         public void testFailCalc()
         {
-            a assertEquals ("Result", objCMT.multiply(3,5),8);
+            assertEquals ("Result", objCMT.multiply(3,5),8);
         }
     @Test
         public void testCalcAdd()
         {
-            a assertEquals ("Result", objCalc.add(),9);
+            assertEquals ("Result", objCalc.add(),9);
         }
 }
