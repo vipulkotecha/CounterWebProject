@@ -16,12 +16,10 @@ public class CalcMultiplyTest
     {
         System.out.println("Slow");
     }
-    @Before
     public void testFast()
     {
         System.out.println("Fast");
     }
-    @Before
     public void testFurious()
     {
         System.out.println("Furious");
