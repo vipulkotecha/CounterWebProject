@@ -2,14 +2,14 @@ package com.qaagility.controller;
 
 import org.junit.Test;
 import static org.junit.Assert.assertEquals;
-import com.qaagitlity.controller.*;
+import com.qaagility.controller.*;
 
 public class CalcMultiplyTest
 {
 
     CalcMultiplyTest objCMT = new CalcMultiplyTest();
     Calculator objCalc = new Calculator();
-    @Begin
+    @Before
     public void testSlow()
     {
         System.out.println("Slow");
@@ -20,7 +20,7 @@ public class CalcMultiplyTest
         System.out.println("Fast");
     }
     
-    @Begin
+    @Before
     public void testFurious()
     {
         System.out.println("Furious");
