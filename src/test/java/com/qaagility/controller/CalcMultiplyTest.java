@@ -9,7 +9,7 @@ public class CalcMultiplyTest
 
     CalcMultiplyTest objCMT = new CalcMultiplyTest();
     Calculator objCalc = new Calculator();
-    @Before
+ 
     public void testSlow()
     {
         System.out.println("Slow");
@@ -19,8 +19,7 @@ public class CalcMultiplyTest
     {
         System.out.println("Fast");
     }
-    
-    @Before
+
     public void testFurious()
     {
         System.out.println("Furious");
