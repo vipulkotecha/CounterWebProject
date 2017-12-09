@@ -7,7 +7,7 @@ import com.qaagility.controller.*;
 public class CalcMultiplyTest
 {
 
-    CalcMultiplyTest objCMT = new CalcMultiplyTest();
+    CalcMultiply objCMT = new CalcMultiply();
     Calculator objCalc = new Calculator();
  
     public void testSlow()
@@ -28,16 +28,16 @@ public class CalcMultiplyTest
     @Test
         public void testCalc()
         {
-            assertEquals ("Result", objCMT.multiply(3,5),15);
+            assertEquals ("Result", 15,objCMT.multiply(3,5));
         }
     @Test
         public void testFailCalc()
         {
-            assertEquals ("Result", objCMT.multiply(3,5),8);
+            assertEquals ("Result", 8, objCMT.multiply(3,5));
         }
     @Test
         public void testCalcAdd()
         {
-            assertEquals ("Result", objCalc.add(),9);
+            assertEquals ("Result", 9, objCalc.add());
         }
 }
