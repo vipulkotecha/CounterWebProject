@@ -10,16 +10,17 @@ public class CalcMultiplyTest
     CalcMultiply objCMT = new CalcMultiply();
     Calculator objCalc = new Calculator();
  
+    @Before
     public void testSlow()
     {
         System.out.println("Slow");
     }
-    
+    @Before
     public void testFast()
     {
         System.out.println("Fast");
     }
-
+    @Before
     public void testFurious()
     {
         System.out.println("Furious");
